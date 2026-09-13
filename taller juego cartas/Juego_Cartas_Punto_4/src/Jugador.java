@@ -32,7 +32,7 @@ public class Jugador {
         }
 
         panelJugador.revalidate(); // Actualizar componentes del panel
-        panelJugador.repaint(); // Redibujar el panel
+        panelJugador.repaint(); // Dibujar el panel
     }
 
     public String obtenerGrupos() {
