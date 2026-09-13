@@ -31,7 +31,7 @@ public class Jugador {
     }
 
     public void mostrar(JPanel panelJugador) {
-        panelJugador.removeAll(); // Limpiar las cartas anteriores
+        panelJugador.removeAll(); // Limpiar las cartas anteriores .
         panelJugador.setLayout(null); // Permitir posiciones manuales
 
         for (int indiceCarta = cantidadCartasPorJugador - 1; indiceCarta >= 0; indiceCarta--) {
